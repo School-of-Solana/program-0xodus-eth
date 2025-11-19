@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useConnection, useWallet } from '@solana/wallet-adapter-react';
 import { PublicKey, SystemProgram } from '@solana/web3.js';
-import { getProgram, getChamaPDA, getVaultPDA } from '../utils/anchorClient';
+import { getProgram, getVaultPDA } from '../utils/anchorClient';
 import { LAMPORTS_PER_SOL, formatTimeRemaining, shortenAddress } from '../utils/constants';
 import * as anchor from '@coral-xyz/anchor';
 
