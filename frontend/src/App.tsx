@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="app">
       <header>
-        <h1>Solana Chama ROSCA</h1>
+        <h1>Solana Chama</h1>
         <WalletMultiButton />
       </header>
       
